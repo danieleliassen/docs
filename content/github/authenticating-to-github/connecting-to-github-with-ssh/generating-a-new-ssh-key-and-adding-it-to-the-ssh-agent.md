@@ -135,7 +135,7 @@ Before adding a new SSH key to the ssh-agent to manage your keys, you should hav
   
 3. Add your SSH private key to the ssh-agent and store your passphrase in the keychain. {% data reusables.ssh.add-ssh-key-to-ssh-agent %}
    ```shell
-   $ ssh-add -K ~/.ssh/id_ed25519
+   $ ssh-add ~/.ssh/id_ed25519
   ```
   {% note %}
 
